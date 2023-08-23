@@ -15,7 +15,7 @@
 						"exec": [
 							"pm.test(\"Health check should pass\", function() {",
 							"    pm.response.to.have.status(200)",
-							"    pm.expect(pm.response.text().toLowerCase()).to.eql(\"Hello world!\".toLowerCase())",
+							"    pm.expect(pm.response.text().toLowerCase()).to.eql(\"hello world!\".toLowerCase())",
 							"})",
 							""
 						],
