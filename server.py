@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/calculator/greeting", methods=['GET'])
 def greeting():
-    return "hello world!", 200  # Note: changed to lowercase "hello"
+    return "hello world!", 200
 
 @app.route("/calculator/add", methods=['POST'])
 def add():
